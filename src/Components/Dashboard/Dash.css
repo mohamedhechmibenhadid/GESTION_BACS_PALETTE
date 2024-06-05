@@ -1,0 +1,13 @@
+.dashboard{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height:100%;
+    margin:0;
+}
+ul{
+    text-decoration:none;
+}
+.dashboardItems{
+    margin:0;
+    height:90vh;
+}
