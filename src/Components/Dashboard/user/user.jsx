@@ -1,6 +1,6 @@
 import Dashboard from "../Dashboard"
 import Members_Table from "../../mvt/mvt"
-
+import ContactUs from "./ContactUs"
 export default function User(){
     const members = [
         {
@@ -36,7 +36,7 @@ export default function User(){
     return (
         <>
                 <div className='dashboard'>
-            <div>
+                <div className='dashboard_items'>
         <Dashboard />
         </div>
         <div className="usersTable">
@@ -44,9 +44,15 @@ export default function User(){
             <h1 style={{textAlign:'center'}}>Our Member</h1>
 
                     <Members_Table  banner="user" members={members}/> 
-
- </div>
+                    <div>
+            <div>
+                <ContactUs/>
+            </div>
         </div>
+ </div>
+
+        </div>
+
         </>
     )
 }

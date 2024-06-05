@@ -3,7 +3,9 @@
     grid-template-columns: 1fr 5fr;
     height:100%;
     margin:0;
+    
 }
+
 ul{
     text-decoration:none;
 }

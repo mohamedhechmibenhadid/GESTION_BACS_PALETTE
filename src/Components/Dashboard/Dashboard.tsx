@@ -30,6 +30,7 @@ import AssignmentIcon from '@mui/icons-material/Assignment';
 import { NavLink } from 'react-router-dom';
 import './Dashboard.css'
 import InventoryIcon from '@mui/icons-material/Inventory';
+import GroupsIcon from '@mui/icons-material/Groups';
 function changePage(){
   console.log('page changed');
 }
@@ -153,7 +154,7 @@ export default function Dashboard() {
         <ShoppingCartIcon />
       </ListItemIcon>
 
-      <ListItemText primary="Fournisseur" />
+      <ListItemText primary="Fournisseurs" />
     </ListItemButton>
     </NavLink>
     <NavLink  to="/dashboard/users"  className={({ isActive}) =>
@@ -167,7 +168,17 @@ export default function Dashboard() {
       <ListItemText primary="Users" />
     </ListItemButton>
     </NavLink>
+    <NavLink  to="/dashboard/groups"  className={({ isActive}) =>
+    isActive ? "active" : "pending"
+  }>
+    <ListItemButton>
+      <ListItemIcon>
+        <GroupsIcon />
+      </ListItemIcon>
 
+      <ListItemText primary="Groups" />
+    </ListItemButton>
+    </NavLink>
     <ListItemButton>
       <ListItemIcon>
         <BarChartIcon />

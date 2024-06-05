@@ -1,0 +1,92 @@
+@media screen and (min-width: 1200px) {
+    .ContacUsBox {
+        display: flex;
+        justify-content: center;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .ContacUsMessage {
+        padding-bottom: 2vh;
+        width: 55%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+    .ContacUsMessage .ContactUsHeader {
+        display: flex;
+        justify-content: center;
+    }
+    .ContacUsMessage h1 {
+        color: rgb(17, 24, 39);
+    }
+    .ContacUsMessage h4 {
+        color: rgb(75, 85, 99);
+    }
+    .ContacUsMessage .InputContact {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 2vh;
+    }
+    .ContacUsMessage button {
+        margin-top: 2vh;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .ContactUsDetails {
+        margin-left: 5%;
+        width: 25%;
+        background-color: rgb(0, 102, 255);
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+    .LineOfSenMessage {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .ContacUsBox {
+        display: block;
+        justify-content: center;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .ContacUsMessage {
+        width: 90%;
+        margin-left: 5%;
+        padding-bottom: 2vh;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+    .ContacUsMessage .ContactUsHeader {
+        display: flex;
+        justify-content: center;
+    }
+    .ContacUsMessage h1 {
+        color: rgb(17, 24, 39);
+    }
+    .ContacUsMessage h4 {
+        color: rgb(75, 85, 99);
+    }
+    .ContacUsMessage .InputContact {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 2vh;
+    }
+    .ContacUsMessage button {
+        margin-top: 2vh;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .ContactUsDetails {
+        margin-left: 5%;
+        width: 25%;
+        background-color: rgb(0, 102, 255);
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+    .LineOfSenMessage {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

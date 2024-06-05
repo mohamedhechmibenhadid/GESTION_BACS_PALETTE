@@ -7,7 +7,7 @@ import User from '../Dashboard/user/user';
 export default function Dash(){
     return(
         <div className='dashboard'>
-            <div>
+            <div className='dashboard_items'>
         <Dashboard />
         </div>
         <div>
